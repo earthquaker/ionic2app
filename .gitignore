@@ -21,6 +21,10 @@ temp/
 www/build/
 $RECYCLE.BIN/
 
+plugins/
+platforms/
+.io-config.json
+
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
