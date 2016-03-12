@@ -1,12 +1,12 @@
 
 <ion-navbar *navbar dark>
   <ion-title>
-    Tab 2
+    All Logs
   </ion-title>
 </ion-navbar>
 
 <ion-content class="page2">
-  <ion-searchbar [(ngModel)]="searchQuery" (input)="getItems($event)"></ion-searchbar>
+  <ion-searchbar dark [(ngModel)]="searchQuery" (input)="getItems($event)"></ion-searchbar>
   <ion-list>
     <ion-item *ngFor="#item of items">
       {{ item }}
