@@ -1,4 +1,5 @@
 import {Page} from 'ionic-angular';
+import {Firebase} from 'firebase';
 
 
 @Page({
