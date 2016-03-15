@@ -1,6 +1,5 @@
 import {Page} from 'ionic-angular';
-import {Firebase} from 'firebase';
-
+var Firebase = require('firebase');
 
 @Page({
   templateUrl: 'build/pages/page1/page1.html'
@@ -8,7 +7,12 @@ import {Firebase} from 'firebase';
 
 export class Page1 {
   constructor() {
-    //this.fireRef = new Firebase('https://pladervaskor.firebaseio.com/');
-    //console.log(fireRef);
+    let fireRef = new Firebase("https://100meter.firebaseio.com/");
+    console.log(fireRef);
+  }
+
+  addItem() {
+    console.log("add item to db");
+    console.log(this.fireRef);
   }
 }
