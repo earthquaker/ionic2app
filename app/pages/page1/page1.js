@@ -11,7 +11,7 @@ export class Page1 {
     console.log(fireRef);
   }
 
-  addItem() {
+  addLog() {
     console.log("add item to db");
     console.log(this.fireRef);
   }
