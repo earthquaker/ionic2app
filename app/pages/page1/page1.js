@@ -12,7 +12,7 @@ export class Page1 {
   }
 
   addLog() {
-    console.log("add item to db");
+    console.log("add item to database");
     console.log(this.fireRef);
   }
 }
